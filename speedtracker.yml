@@ -37,7 +37,7 @@
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-encryptionKey: "YOUR_ENCRYPTED_KEY"
+encryptionKey: "bc0476fd250827a824b37514c2e9"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -50,7 +50,7 @@ encryptionKey: "YOUR_ENCRYPTED_KEY"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-wptKey: "YOUR_ENCRYPTED_WEBPAGETEST_KEY"
+wptKey: "cf50089a296a74be0287355cbaed6c28402cdf712fff686d0d02ef3f0e4920b8f845"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -79,3 +79,8 @@ wptKey: "YOUR_ENCRYPTED_WEBPAGETEST_KEY"
 #    channel: "#speedtracker"
 #    username: "SpeedTracker"
 #    iconEmoji: ":grimacing:"
+
+alerts:
+  emailAlert:
+    type: "email"
+    recipients: ["e70a7dcd233b2dad0e8f650cf9bf23781978"]
