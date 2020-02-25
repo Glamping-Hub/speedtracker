@@ -56,4 +56,13 @@ parameters:
 #    metric: firstPaint
 #    max: 2000
 #    alerts: ["slackAlert"]
+budgets:
+  -
+    metric: TTFB
+    max: 600
+    alerts: ["emailAlert"]
+  -
+    metric: fullyLoaded
+    max: 5500
+    alerts: ["emailAlert"]
 ---

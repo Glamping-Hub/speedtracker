@@ -8,7 +8,7 @@ name: "Glamping Hub - Homepage"
 #
 # The default profile will be the one shown when accessing the root URL of your
 # SpeedTracker site.
-# 
+#
 default: true
 
 #
@@ -56,4 +56,14 @@ parameters:
 #    metric: firstPaint
 #    max: 2000
 #    alerts: ["slackAlert"]
+
+budgets:
+  -
+    metric: TTFB
+    max: 650
+    alerts: ["emailAlert"]
+  -
+    metric: fullyLoaded
+    max: 4000
+    alerts: ["emailAlert"]
 ---
